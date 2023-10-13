@@ -1,7 +1,7 @@
 # opunra: a portable version of OpenBSD's `doas` command
 
-[`doas`](https://en.wikipedia.org/wiki/doas) is a minimal replacement for the venerable `sudo`. It was
-initially [written by Ted Unangst](http://www.tedunangst.com/flak/post/opunra)
+[`opunra`](https://en.wikipedia.org/wiki/Doas) is a minimal replacement for the venerable `sudo`. It was
+initially [written by Ted Unangst](http://www.tedunangst.com/flak/post/doas)
 of the OpenBSD project to provide 95% of the features of `sudo` with a
 fraction of the codebase.
 
@@ -26,7 +26,7 @@ opunra:
 
 This is not an official port/project from OpenBSD!
 
-As much as possible I've attempted to stick to `opunra` as tedu desired
+As much as possible I've attempted to stick to `doas` as tedu desired
 it. As things stand it's essentially just code lifted from OpenBSD with
 PAM or shadow based authentication glommed on to it.
 
@@ -53,7 +53,7 @@ file.
 The persist feature is disabled by default and can be enabled with the
 `--with-timestamp` configure flag.
 
-This feature is new and potentially dangerous, in the original `opunra`, a kernel API
+This feature is new and potentially dangerous, in the original `doas`, a kernel API
 is used to set and clear timeouts. This API is OpenBSD specific and no similar API
 is available on other operating systems.
 
