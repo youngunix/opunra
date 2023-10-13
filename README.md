@@ -1,6 +1,6 @@
-# opunra: a portable version of OpenBSD's `opunra` command
+# opunra: a portable version of OpenBSD's `doas` command
 
-[`opunra`](https://en.wikipedia.org/wiki/opunra) is a minimal replacement for the venerable `sudo`. It was
+[`doas`](https://en.wikipedia.org/wiki/doas) is a minimal replacement for the venerable `sudo`. It was
 initially [written by Ted Unangst](http://www.tedunangst.com/flak/post/opunra)
 of the OpenBSD project to provide 95% of the features of `sudo` with a
 fraction of the codebase.
