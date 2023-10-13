@@ -1,0 +1,14 @@
+opunra
+
+parse.c
+version.h
+
+*.a
+*.d
+*.o
+
+*.swp
+*.swo
+
+config.mk
+config.h
